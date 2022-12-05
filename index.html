@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <style>
+        * {margin:0;padding:0;}
+
+        body {overflow: hidden;}
+
+        .container {width: 100%; height: 100vh;}
+        #btn{
+            position: absolute;
+        }
+    </style>
+    <button id="btn">Click</button>
+    <div class="container"></div>
+    <script src="/three js/build/three.js"></script>
+    <script src="/canon/cannon.js"></script>
+    <script src="/canon/CannonDebugRenderer.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "/three js/build/three.module.js",
+                "OrbitControls": "/three js/examples/jsm/controls/OrbitControls.js",
+                "GLTFLoader": "/three js/examples/jsm/loaders/GLTFLoader.js",
+                "RectAreaLightHelper": "/three js/examples/jsm/helpers/RectAreaLightHelper.js",
+                "RectAreaLightUniformsLib": "/three js/examples/jsm/lights/RectAreaLightUniformsLib.js",
+                "PointerLockControls": "/three js/examples/jsm/controls/PointerLockControls.js"
+            }
+        }
+    </script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
