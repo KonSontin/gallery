@@ -3,13 +3,13 @@
 <h3 align="center">Сборка 3D галлереи с помощью библиотек: Three.js, Cannon js</h3>
 <hr>
 <h4>Подключение в HTML:</h4>
-`
-"imports": {
-"three": "/three js/build/three.module.js",
-"OrbitControls": "/three js/examples/jsm/controls/OrbitControls.js",
-"GLTFLoader": "/three js/examples/jsm/loaders/GLTFLoader.js",
-"RectAreaLightHelper": "/three js/examples/jsm/helpers/RectAreaLightHelper.js",
-"RectAreaLightUniformsLib": "/three js/examples/jsm/lights/RectAreaLightUniformsLib.js",
-"PointerLockControls": "/three js/examples/jsm/controls/PointerLockControls.js"
+```
+  "imports": {
+    "three": "/three js/build/three.module.js",
+    "OrbitControls": "/three js/examples/jsm/controls/OrbitControls.js",
+    "GLTFLoader": "/three js/examples/jsm/loaders/GLTFLoader.js",
+    "RectAreaLightHelper": "/three js/examples/jsm/helpers/RectAreaLightHelper.js",
+    "RectAreaLightUniformsLib": "/three js/examples/jsm/lights/RectAreaLightUniformsLib.js",
+    "PointerLockControls": "/three js/examples/jsm/controls/PointerLockControls.js"
 }
-`
+```
