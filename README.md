@@ -98,4 +98,4 @@ function processKeyboard(){
 }
 ```
 <h4>Ознакомьтесь внимательно с кодом. Для запуска используйте Open Server</h4>
-<small>Проект не закончен, выкладываю вдруг кому пригодиться</small><img src="https://github.com/KonSontin/gif/blob/master/cat.gif" height="32"/>
+<small>Проект адаптивный под разные размеры, пользуйтесь!<img src="https://github.com/KonSontin/gif/blob/master/cat.gif" height="32"/></small>
