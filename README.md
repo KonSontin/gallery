@@ -1,5 +1,5 @@
-<h1 align="center">Всем привет!
-<img src="https://github.com/KonSontin/gif/blob/master/cat_programmer.gif" height="32"/></h1>
+<h1 align="center">Дароу!
+<img src="https://github.com/KonSontin/gif/blob/master/cat_programmer.gif" height="60"/></h1>
 <h3 align="center">Сборка 3D галлереи с помощью библиотек: Three.js, Cannon js</h3>
 <hr>
 <h4>Подключение в HTML:</h4>
