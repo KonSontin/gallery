@@ -62,11 +62,11 @@ window.addEventListener('resize', onWindowResize, false)
 <h4>Создали Cannon скелет для камеры и связали. (Так как настроена физика, нужно привязать скелет к камере, для столкновений со стенками) </h4>
 
 ```
-    //cube camera
-    camera.position.z = cubeBody2.position.z 
-    camera.position.y = cubeBody2.position.y
-    camera.position.x = cubeBody2.position.x
-    renderer.render(scene, camera)
+//cube camera
+camera.position.z = cubeBody2.position.z 
+camera.position.y = cubeBody2.position.y
+camera.position.x = cubeBody2.position.x
+renderer.render(scene, camera)
 ```
 
 <h4>Чтобы управлять камерой и скелетом создали нехитрый обработчик .</h4>
