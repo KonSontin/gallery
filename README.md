@@ -3,7 +3,7 @@
 <h3 align="center">Сборка 3d галлереи с помощью библиотек: Three.js, Cannon js</h3>
 <hr>
 <h4>Подключение в HTML:</h4>
-```
+<p>```
 {
         "imports": {
         "three": "/three js/build/three.module.js",
@@ -14,4 +14,4 @@
         "PointerLockControls": "/three js/examples/jsm/controls/PointerLockControls.js"
         }
 }
-```
+```</p>
